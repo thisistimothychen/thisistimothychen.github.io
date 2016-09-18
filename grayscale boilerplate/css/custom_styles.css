@@ -8,3 +8,27 @@
 .navbar .navbar-collapse {
   text-align: center;
 }
+
+#my-name {
+  color: #1867a3;
+}
+
+#my-tagline {
+  font-family: 'Bebas Neue Regular', "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #b8b7b7;
+}
+
+
+
+
+
+
+
+
+
+/* COLOR PALETTE
+#263135 (navbar)
+#1867a3
+#e5e9e7 (page background)
+#b9b7b8 (background 2)
+*/
