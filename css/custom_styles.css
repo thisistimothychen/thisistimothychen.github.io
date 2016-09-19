@@ -47,6 +47,13 @@ p.gray {
    height: 15em;
 }
 
+#my-name {
+  color: #1867a3;
+  font-size: 8em;
+  padding-top: 0.3em;
+  margin-bottom: 0;
+}
+
 @media (max-width: 767px) {
   #my-name {
     color: #1867a3;
