@@ -9,18 +9,78 @@
   text-align: center;
 }
 
+p.dark {
+  color: #262626;
+}
+.split-para {
+  display:block;
+  margin-bottom: 15px;
+}
+.split-para span {
+  display:block;
+  float:right;
+}
+.logo {
+  margin-top: 10px;
+  width:80%;
+}
+
+#my-photo {
+   height: 15em;
+}
+
 #my-name {
   color: #1867a3;
+  font-size: 8em;
+  padding-top: 0.3em;
+  margin-bottom: 0;
 }
 
 #my-tagline {
   font-family: 'Bebas Neue Regular', "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:1.49em;
+  text-align: center;
   color: #b8b7b7;
 }
 
+.content-section {
+  width: 100%;
+}
+
+.section-header {
+  font-family: 'Bebas Neue Regular', "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:5em;
+  text-align: left;
+}
 
 
+#education .section-header {
+  color: #1867a3;
+}
+#relevant-experience .section-header {
+  color: #b9b7b8;
+}
 
+
+#about {
+  background-color: #1867a3;
+}
+
+#work-experience {
+  background-color: #b9b7b8;
+}
+
+.image-overflow-container {
+  overflow:hidden;
+  position: relative;
+}
+
+#photo-line-background {
+  background-image: url("../img/photo_line.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  height: 15em;
+}
 
 
 
@@ -31,4 +91,5 @@
 #1867a3
 #e5e9e7 (page background)
 #b9b7b8 (background 2)
+#262626 (text)
 */
