@@ -12,6 +12,15 @@
 p.dark {
   color: #262626;
 }
+p.gray {
+  color: #5a5a5a;
+}
+#contact .fa {
+  color: #5a5a5a;
+  font-size: 2.5em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
 .split-para {
   display:block;
   margin-bottom: 15px;
@@ -22,7 +31,7 @@ p.dark {
 }
 .logo {
   margin-top: 10px;
-  width:80%;
+  width: 10em;
 }
 
 #my-photo {
@@ -60,13 +69,21 @@ p.dark {
 #relevant-experience .section-header {
   color: #b9b7b8;
 }
+#awards .section-header {
+  color: #b9b7b8;
+}
 
 
 #about {
   background-color: #1867a3;
 }
-
 #work-experience {
+  background-color: #b9b7b8;
+}
+#portfolio {
+  background-color: #1867a3;
+}
+#contact {
   background-color: #b9b7b8;
 }
 
@@ -82,7 +99,20 @@ p.dark {
   height: 15em;
 }
 
+.project-img {
+  max-width: 100%;
+}
+div.project-desc {
+  background-color: #e5e9e7;
+}
+p.project-desc {
+  padding: 1.5em;
+}
 
+
+.text-center {
+  text-align: center;
+}
 
 
 
