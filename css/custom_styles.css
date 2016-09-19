@@ -34,19 +34,39 @@ p.gray {
   float:right;
 }
 .logo {
-  margin-top: 10px;
+  margin-top: 5px;
   width: 10em;
+}
+@media (max-width: 1200px) {
+  .pad-right {
+    margin-right: 2.5em;
+  }
 }
 
 #my-photo {
    height: 15em;
 }
 
-#my-name {
-  color: #1867a3;
-  font-size: 8em;
-  padding-top: 0.3em;
-  margin-bottom: 0;
+@media (max-width: 767px) {
+  #my-name {
+    color: #1867a3;
+    font-size: 3em;
+    padding-top: 0.3em;
+    margin-bottom: 0;
+  }
+  .logo {
+    margin-top: 5px;
+    width: 5em;
+  }
+  .pad-right {
+    margin-right: 0.5em;
+  }
+  .split-para {
+    margin-bottom: 10px;
+  }
+  .split-para span {
+    display:none;
+  }
 }
 
 #my-tagline {
