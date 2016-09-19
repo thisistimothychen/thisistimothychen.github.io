@@ -1,51 +1,386 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<html lang="en">
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web developer, event producer, hackathon organizer, and film editor.">
+    <meta name="author" content="Timothy Chen">
+
     <title>Timothy Chen</title>
-    <link rel="shortcut icon" href="images/favicon.ico" />
-  </head>
 
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <body>
-    <img src="images/clouds_bg.jpg" class="bg">
-    <div class="section no-pad-bot" id="index-banner" style="height:100vh">
-      <div class="container">
-        <br><br>
-        <h1 class="header center blue-text">Timothy Chen</h1>
-        <div class="row center">
-          <h4 class="header col s12 light">web developer, event producer, hackathon organizer, film editor</h4>
-        </div>
-        <div class="row center">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="css/fonts/font.css" rel="stylesheet">
 
-        </div>
-        <br><br>
+    <!-- Theme CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/custom_styles.css" rel="stylesheet">
 
-      </div>
-    </div>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
+</head>
 
-    <div class="container">
-      <div class="section">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-      </div>
-    </div>
-
-    <footer class="footer blue">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <p>Made with <i class="fa fa-heart"></i> by <a href="http://www.github.com/timothychen01">Timothy Chen</a>. Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script>.</p>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#education">Education</a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="#work-experience">Experience</a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="#awards">Awards</a>
+                    </li>
+                    
+                    <li>
+                      <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </footer>
-  </body>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <img src="img/propic.png" id="my-photo"/>
+                    <h1 class="brand-heading" id="my-name">Timothy Chen</h1>
+                    <p class="intro-text" id="my-tagline">web developer // event producer // hackathon organizer // film editor</p>
+                    <div class="col-md-8 col-md-offset-1 col-sm-9">
+                    </div>
+                </div>
+                
+                <a href="#about" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h2 class="section-header">About Me</h2>
+                <p>Computer Science and Finance dual degree student at the University of Maryland, College Park enrolled in the Quality Enhancement Systems and Teams (QUEST) and Entrepreneurship and Innovation (EIP) Honors Programs.</p>
+                <p>Tech enthusiast delivering a wide variety of services including website and web application development, event production, video production, and design.</p>
+                <p>Experience in organization management, logistics, and marketing.</p>
+                <br /><br />
+            </div>
+        </div>
+        <div class="row image-overflow-container">
+            <div id="photo-line-background"></div>
+        </div>
+        <br />
+    </section>
+    
+    
+    <!-- Education Section -->
+    <section id="education" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h2 class="section-header">Education</h2>
+                <div class="row">
+                  <div class="col-xs-3">
+                    <img src="img/umd_logo.png" style="width:100%;"/>
+                  </div>
+                  <div class="col-xs-9">
+                    <p class="dark"><b>University of Maryland, College Park</b><br />
+                      BS in Computer Science, BS in Finance<br />
+                      <i>2015-2019 (Expected)</i><br /><br />
+                      Quality Enhancement Systems and Teams (QUEST)<br />
+                      Entrepreneurship and Innovation (EIP) Honors Program<br />
+                      Dingman Jumpstart Program
+                    </p>
+                    
+                  </div>
+                </div>
+                <br />
+            </div>
+        </div>
+        <br /><br />
+    </section>
+    
+    
+    <!-- Work Experience Section -->
+    <section id="work-experience" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h2 class="section-header">Work Experience</h2>
+                
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="http://netscout.com/"><img src="img/netscout.png" class="logo"/></a>
+                  </div>
+                  <div class="col-xs-9">
+                    <p class="split-para dark"><b>NETSCOUT</b><br /><i>Software Engineering Intern</i> <span>Summer 2016</span></p>
+                    <p class="dark">
+                      Developed a Ruby on Rails web application that analyzes team productivity and produces beautiful scrum reports, eliminating five man-hours of menial chart and metric generation per week.
+                    </p>
+                  </div>
+                </div>
+                <br /><br />
+                
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="http://triplegllc.com"><img src="img/triplegllc.png" class="logo"/></a>
+                  </div>
+                  <div class="col-xs-9">
+                    <p class="split-para dark"><b>Triple G, LLC</b><br /><i>Chief Technology Officer</i> <span>2015 - Present</span></p>
+                    <p class="dark">
+                      Provided domain management, website development, and front-end responsive design. Generated widespread exposure (30 million views within a month) through video advertisements.
+                    </p>
+                  </div>
+                </div>
+                <br /><br />
+                
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="http://fdmhome.com/"><img src="img/fdmhome.png" class="logo"/></a>
+                  </div>
+                  <div class="col-xs-9">
+                    <p class="split-para dark"><b>Fidelity Direct Mortgage</b><br /><i>Marketing and Design Intern</i> <span>Summer 2015</span></p>
+                    <p class="dark">
+                      Designed and maintained 50+ customizable property, product, ad, and info fliers for the mortgage industry.
+                    </p>
+                  </div>
+                </div>
+                <br /><br />
+                
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="http://eventeq.com/"><img src="img/eventeq.png" class="logo"/></a>
+                  </div>
+                  <div class="col-xs-9">
+                    <p class="split-para dark"><b>EventEQ</b><br /><i>Video Production and Graphic Design Intern</i> <span>Summer 2014</span></p>
+                    <p class="dark">
+                      Produced video and graphics content for event multimedia and to advertise company capabilities such as 3D Projection Mapping and Presentation Management & Publishing.
+                    </p>
+                  </div>
+                </div>
+                <br /><br />
+                
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="http://pixelpointllc.com/"><img src="img/pixelpoint.png" class="logo"/></a>
+                  </div>
+                  <div class="col-xs-9">
+                    <p class="split-para dark"><b>Pixel Point, LLC</b><br /><i>Independent Contractor</i> <span>2016 - Present</span></p>
+                    <p class="dark">
+                      Contracted as part of event production crews to fill roles such as stage manager, video producer, and cameraman for various conferences and events.
+                    </p>
+                  </div>
+                </div>
+                <br /><br />
+                
+            </div>
+        </div>
+        <br />
+    </section>
+    
+    
+    <!-- Relevant Experience Section -->
+    <section id="relevant-experience" class="container content-section text-center">
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3">
+                <h2 class="section-header">Relevant Experience</h2>
+                
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="http://bitca.mp/"><img src="img/bitcamp.png" class="logo"/></a>
+                  </div>
+                  <div class="col-xs-9">
+                    <p class="split-para dark"><b>Bitcamp</b><br /><i>Director of Logistics</i> <span>2016 - Present</span><br /><i>Multimedia Coordinator</i> <span>2015 - 2016</span></p>
+                    <p class="dark">
+                      Organizing a national hackathon with over 1,300+ attendees and an $180,000 budget to foster innovation and forward thinking among hackers.
+                    </p>
+                  </div>
+                </div>
+                <br /><br />
+                
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="http://susaumd.com/"><img src="img/susa.png" class="logo"/></a>
+                  </div>
+                  <div class="col-xs-9">
+                    <p class="split-para dark"><b>Smith Undergraduate Student Association (SUSA)</b><br /><i>Webmaster</i> <span>2015 - Present</span></p>
+                    <p class="dark">
+                      Provide anything “tech” including domain management and Wordpress installation to member clubs, and implementing a smart quiz implementation that recommends a club or organization based on responses.
+                    </p>
+                  </div>
+                </div>
+                <br /><br />
+                
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="http://mdfbla.org/"><img src="img/mdfbla.png" class="logo"/></a>
+                  </div>
+                  <div class="col-xs-9">
+                    <p class="split-para dark"><b>Maryland Future Business Leaders of America</b><br /><i>State Webmaster</i> <span>2014 - 2015</span></p>
+                    <p class="dark">
+                      Revamped the website and based it in Weebly’s content management system to allow for simple site editing for future webmasters. Currently providing web-related support for officer teams. Produced multimedia for the 2013 State Fall Leadership Conference general session.
+                    </p>
+                  </div>
+                </div>
+                <br /><br />
+                
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="http://zerorobotics.mit.edu/"><img src="img/zerorobotics.png" class="logo"/></a>
+                  </div>
+                  <div class="col-xs-9">
+                    <p class="split-para dark"><b>MIT Zero Robotics Programming Challenge</b><br /><i>Project Manager</i> <span>2014 - 2015</span></p>
+                    <p class="dark">
+                      Led a team of 45 international programmers to program SPHERES satellites in a competitive battle against other teams across the world, placing 16th out of 126 teams in the 3D round and 2nd out of 13 in the Virtual Finalists round.
+                    </p>
+                  </div>
+                </div>
+                <br /><br />
+                
+            </div>
+        </div>
+        <br />
+    </section>
+    
+    
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h2 class="section-header">Portfolio</h2>
+                <div class="row">
+                  
+                  <div class="col-lg-5 col-lg-offset-1 col-sm-4 col-sm-offset-1">
+                    <a href="http://netscout.timothychen.me/"><img src="img/project-netscout-reporting-tool.png" class="project-img"></a>
+                    <div class="project-desc">
+                      <p class="dark project-desc">
+                        <b>NETSCOUT Manager Reporting Tool</b><br />
+                        Ruby on Rails web application for automating scrum of scrums report generation. Managers can analyze team productivity with a few simple clicks, eliminating five man hours of menial chart and metric generation per week.
+                      </p>
+                    </div>
+                    <br />
+                    
+                    <a href="https://github.com/timothychen01/square-up"><img src="img/project-square-up.png" alt="" class="project-img"></a>
+                    <div class="project-desc">
+                      <p class="dark project-desc">
+                        <b>Square Up</b><br />
+                        A reimagination of the Computer Science Undergrad event registration page using HTML, CSS, and JScript.
+                      </p>
+                    </div>
+                    
+                  </div>
+                  
+                  <div class="col-lg-5 col-lg-offset-1 col-sm-4 col-sm-offset-2">
+                    <a href="http://lyrics-sanitizer.herokuapp.com/"><img src="img/project-lyrics-sanitizer.png" alt="" class="project-img"></a>
+                    <div class="project-desc">
+                      <p class="dark project-desc">
+                        <b>Lyrics Sanitizer</b><br />
+                        Ruby on Rails web-app that analyzes song lyrics and sanitizes it based on default or user-entered explicatives.
+                      </p>
+                    </div>
+                    <br />
+                    
+                    <a href="http://mdfbla.org/"><img src="img/project-mdfbla-site.png" alt="" class="project-img"></a>
+                    <div class="project-desc">
+                      <p class="dark project-desc">
+                        <b>Maryland FBLA Website</b><br />
+                        Modern and dynamic website based in Weebly’s content management system to provide an aesthetic web presence and allow for simple site editing for future webmasters.
+                      </p>
+                    </div>
+                    
+                  </div>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+    </section>
+    
+    
+    <!-- Awards Section -->
+    <section id="awards" class="container content-section text-center">
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3">
+                <h2 class="section-header">Awards & Achievements</h2>
+                <p class="split-para dark"><b>2nd Place Overall, Daemon Dash Hackathon</b><span>2015</span></p>
+                <p class="split-para dark"><b>CS Undergrad Challenge Winner, Daemon Dash (see SquareUp)</b><span>2015</span></p>
+                <p class="split-para dark"><b>University of Maryland President's Scholarship</b><span>2015</span></p>
+                <p class="split-para dark"><b>National Merit Scholarship (College-sponsored)</b><span>2015</span></p>
+                <p class="split-para dark"><b>John Harvey Memorial Scholarship, MDFBLA Board of Directors</b><span>2015</span></p>
+                <p class="split-para dark"><b>Microsoft Office Specialist in Word, Excel, and PowerPoint 2010</b><span>2015</span></p>
+          </div>
+        </div>
+        <br /><br /><br /><br /><br />
+    </section>
+    
+    
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <a href="http://linkedin.com/in/timothychen01/"><i class="fa fa-linkedin"></i></a>
+                <a href="http://github.com/timothychen01/"><i class="fa fa-github"></i></a>
+                <a href="http://vimeo.com/user44376561/videos/"><i class="fa fa-vimeo"></i></a>
+                <a href="mailto:timothychen01@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="assets/resume.pdf"><i class="fa fa-book"></i></a>
+            </div>
+        </div>
+        <br />
+        <div class="container text-center">
+            <p class="text-center gray">&copy; Timothy Chen 2016</p>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
 </html>
