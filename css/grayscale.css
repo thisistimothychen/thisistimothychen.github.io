@@ -55,7 +55,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #1867a3;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -63,7 +63,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #5b9fd3;
 }
 .light {
   font-weight: 400;
@@ -77,7 +77,7 @@ a:focus {
 }
 .navbar-custom .navbar-toggle {
   color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(24, 103, 163, 0.2);
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:focus,
@@ -274,16 +274,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #1867a3;
+  color: #1867a3;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #1867a3;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #1867a3;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -312,12 +312,12 @@ footer p {
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(24, 103, 163, 0.2);
 }
 ::selection {
   text-shadow: none;
   background: #fcfcfc;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(24, 103, 163, 0.2);
 }
 img::selection {
   background: transparent;
@@ -326,5 +326,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+  webkit-tap-highlight-color: rgba(24, 103, 163, 0.2);
 }
