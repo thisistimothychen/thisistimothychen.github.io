@@ -1,3 +1,191 @@
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.row .col-xs-3 {
+  padding-right: 5px;
+}
+
+.row .col-xs-9 {
+  padding-left: 5px;
+}
+
+li .page-scroll {
+  font-size: 1.4em;
+}
+
+p.dark {
+  color: #262626;
+}
+p.gray {
+  color: #5a5a5a;
+}
+#contact .fa {
+  color: #5a5a5a;
+  font-size: 2.5em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+.split-para {
+  display:block;
+  margin-bottom: 15px;
+}
+.split-para span {
+  display:block;
+  float:right;
+}
+.logo {
+  margin-top: 5px;
+  width: 10em;
+}
+@media (max-width: 1200px) {
+  .pad-right {
+    margin-right: 2.5em;
+  }
+}
+
+#my-photo {
+   height: 15em;
+}
+
+#my-name {
+  color: white;
+  font-size: 8em;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  padding-top: 0.3em;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  letter-spacing: 15px;
+}
+
+@media(max-width: 1000px) {
+  #my-name {
+    font-size: 5em;
+  }
+
+  #my-tagline span {
+    display: block;
+  }
+}
+
+@media(max-width: 540px) {
+  #my-tagline span {
+    display: inline;
+  }
+}
+
+@media(max-width: 767px) {
+  #my-name {
+    letter-spacing: 0px;
+    font-size: 3em;
+    padding-top: 0.3em;
+    margin-bottom: 0;
+  }
+  .logo {
+    margin-top: 5px;
+    width: 5em;
+  }
+  .pad-right {
+    margin-right: 0.5em;
+  }
+  .split-para {
+    margin-bottom: 10px;
+  }
+  .split-para span {
+    display:none;
+  }
+}
+
+#my-tagline {
+  font-family: 'Bebas Neue Regular', "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:1.49em;
+  text-align: center;
+  color: white;
+}
+
+.content-section {
+  width: 100%;
+}
+
+.section-header {
+  font-family: 'Bebas Neue Regular', "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:5em;
+  text-align: left;
+}
+
+
+#education .section-header {
+  color: #1867a3;
+}
+#relevant-experience .section-header {
+  color: #b9b7b8;
+}
+#awards .section-header {
+  color: #b9b7b8;
+}
+
+
+#about {
+  background-color: #1867a3;
+}
+#work-experience {
+  background-color: #b9b7b8;
+}
+#portfolio {
+  background-color: #1867a3;
+}
+#contact {
+  background-color: #b9b7b8;
+}
+
+.image-overflow-container {
+  overflow:hidden;
+  position: relative;
+}
+
+#photo-line-background {
+  background-image: url("../img/photo_line.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+  height: 15em;
+}
+
+.project-img {
+  max-width: 100%;
+}
+div.project-desc {
+  background-color: #e5e9e7;
+}
+p.project-desc {
+  padding: 1.5em;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+
+
+/* COLOR PALETTE
+#263135 (navbar)
+#1867a3
+#e5e9e7 (page background)
+#b9b7b8 (background 2)
+#262626 (text)
+*/
+
+
+
+
+
 /*!
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2016 Start Bootstrap
@@ -139,11 +327,13 @@ a:focus {
 .intro {
   display: table;
   width: 100%;
-  height: auto;
-  padding: 100px 0;
+  /* height: auto;
+  padding: 100px 0; */
+  height: 100%;
+  padding: 0;
   text-align: center;
   color: white;
-  background: url(../img/clouds-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/bitcamp-speaking-cropped.jpg) no-repeat center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -152,7 +342,8 @@ a:focus {
 }
 .intro .intro-body {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
+  padding-bottom: 100px;
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
@@ -160,18 +351,18 @@ a:focus {
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
-@media (min-width: 768px) {
-  .intro {
+/* @media (min-width: 768px) { */
+  /* .intro {
     height: 100%;
     padding: 0;
-  }
-  .intro .intro-body .brand-heading {
+  } */
+  /* .intro .intro-body .brand-heading {
     font-size: 100px;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
-  }
-}
+  } */
+/* } */
 .btn-circle {
   width: 70px;
   height: 70px;
