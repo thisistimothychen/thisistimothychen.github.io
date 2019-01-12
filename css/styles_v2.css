@@ -154,7 +154,15 @@ p.gray {
   background-image: url("../img/photo_line.jpg");
   background-size: cover;
   background-repeat: repeat-x;
-  height: 15em;
+  height: 10em;
+}
+
+@media(max-width: 767px) {
+  #photo-line-background {
+    background-image: url("../img/instagram-block.jpg");
+    height: 100vw;
+    width: 100vw;
+  }
 }
 
 .project-img {
