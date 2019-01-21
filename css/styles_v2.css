@@ -163,6 +163,10 @@ p.gray {
     height: 100vw;
     width: 100vw;
   }
+  #all-projects {
+    max-width: 500px;
+    display: inline-block;
+  }
 }
 
 .project-img {
