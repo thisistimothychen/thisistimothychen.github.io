@@ -176,6 +176,23 @@ div.project-info {
   padding: 1.5em;
   margin-bottom: 0;
 }
+.skill-list {
+  padding: 0em 1.5em 1.5em 1.5em;
+  margin-top: -1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-item {
+  background-color: #b9b7b8;
+  color: rgba(0,0,0,.6);
+  display: inline-block;
+  line-height: 1;
+  vertical-align: baseline;
+  margin: 0.15em;
+  padding: 0.55em 0.8em;
+  font-weight: 700;
+  border-radius: 0.3rem;
+}
 
 
 .text-center {
