@@ -168,11 +168,13 @@ p.gray {
 .project-img {
   max-width: 100%;
 }
-div.project-desc {
+div.project-info {
   background-color: #e5e9e7;
+  margin-bottom: 1.5em;
 }
-p.project-desc {
+.project-info p {
   padding: 1.5em;
+  margin-bottom: 0;
 }
 
 
