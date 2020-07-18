@@ -90,7 +90,7 @@ p.gray {
   }
   .logo {
     margin-top: 5px;
-    width: 5em;
+    width: 90%;
   }
   .pad-right {
     margin-right: 0.5em;
@@ -129,6 +129,22 @@ p.gray {
 }
 #awards .section-header {
   color: #b9b7b8;
+}
+#awards-list {
+  color: #262626;
+  text-align: left;
+  width: 100%;
+}
+#awards-list td {
+  padding: 8px 0;
+}
+#awards-list p {
+  margin: 0;
+}
+#awards-list .award-date p {
+  padding-left: 10px;
+  text-align: right;
+  white-space: nowrap;
 }
 
 
@@ -390,19 +406,8 @@ a:focus {
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
+  padding: 0 10px;
 }
-/* @media (min-width: 768px) { */
-  /* .intro {
-    height: 100%;
-    padding: 0;
-  } */
-  /* .intro .intro-body .brand-heading {
-    font-size: 100px;
-  }
-  .intro .intro-body .intro-text {
-    font-size: 26px;
-  } */
-/* } */
 .btn-circle {
   width: 70px;
   height: 70px;
