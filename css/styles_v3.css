@@ -127,6 +127,9 @@ p.gray {
 #relevant-experience .section-header {
   color: #b9b7b8;
 }
+.experience {
+  padding-bottom: 30px;
+}
 #awards .section-header {
   color: #b9b7b8;
 }
