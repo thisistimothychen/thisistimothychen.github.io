@@ -157,6 +157,15 @@ p.gray {
   height: 10em;
 }
 
+#projects-outer-container {
+  display: flex;
+  justify-content: center;
+}
+
+#all-projects {
+  max-width: 1150px;
+}
+
 @media(max-width: 767px) {
   #photo-line-background {
     background-image: url("../img/instagram-block.jpg");
