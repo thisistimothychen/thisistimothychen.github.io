@@ -176,12 +176,13 @@ p.gray {
   height: 10em;
 }
 
-#projects-outer-container {
+.outer-content-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-#all-projects {
+.inner-content-container {
   max-width: 1150px;
 }
 
